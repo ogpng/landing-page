@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+.body {
+    font-family: Arial, Helvetica;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+/* information header */
+h3 {
+    font-size: 36px;
+    font-weight: 900px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300px;
+}
+
+.secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.top, .footer {
+    background-color: #1f2937;
+    color: #f9faf8
+}
+
+.info {
+    color: #1f2937;
+}
+
+.middle {
+    background-color: #e5e7eb;
+}
+
+.action {
+    background-color: #3882f6;
+    color: white;
+}
+/*
+.welcomeleft
+.info 
+.footerleft
+*/
