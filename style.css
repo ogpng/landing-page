@@ -2,6 +2,8 @@
 
 .body {
     font-family: Arial, Helvetica;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -37,6 +39,8 @@ ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    gap: 15px;
+    display: flex;
 }
 
 a {
@@ -50,20 +54,47 @@ button {
 
 .top, .footer {
     background-color: #1f2937;
-    color: #f9faf8
+    color: #f9faf8;
+    padding: 30px 180px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .info {
     color: #1f2937;
+    padding: 30px 180px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .middle {
     background-color: #e5e7eb;
+    padding: 90px 220px;
+    text-align: center;
+}
+
+.cred {
+    text-align: right;
+    padding-right: 60px;
 }
 
 .action {
     background-color: #3882f6;
     color: white;
+    padding: 20px 60px;
+    margin: 30px 180px;
+    border-radius: 10px;
+    display: flex; 
+}
+
+.footer {
+    text-align: center;
 }
 /*
 .welcomeleft
