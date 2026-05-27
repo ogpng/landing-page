@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
 
-.body {
-    font-family: Arial, Helvetica;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
 }
@@ -11,7 +12,6 @@ h1 {
     font-weight: 900px;
 }
 
-/* information header */
 h3 {
     font-size: 36px;
     font-weight: 900px;
@@ -21,35 +21,37 @@ p {
     font-size: 18px;
 }
 
-.logo {
-    font-size: 24px;
-}
-
-.quote {
-    font-size: 36px;
-    font-weight: 300px;
-}
-
-.secondary {
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
 ul {
     list-style-type: none;
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     gap: 15px;
     display: flex;
 }
 
-a {
-    text-decoration-line: none;
+a { text-decoration-line: none; }
+
+img { 
+    width: 150px;
+    align-self: center;
+    padding: 5px;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
 }
 
 button {
     background-color: #3882f6;
     color: white;
+    font-weight: 300px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300px;
+    font-style: italic;
+    text-align: center;
 }
 
 .top, .footer {
@@ -63,6 +65,11 @@ button {
     justify-content: space-between;
 }
 
+.hero {
+    display: flex;  
+    gap: 400px;
+}
+
 .info {
     color: #1f2937;
     padding: 30px 220px;
@@ -70,37 +77,35 @@ button {
     justify-content: space-between;
 }
 
-.carousel {
+.pics3 {
     display: flex;
     justify-content: space-evenly;
 }
 
-.middle {
-    background-color: #e5e7eb;
-    padding: 60px 220px;
-    text-align: center;
+.desc3 {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.cred {
+/* ^ !! check prev flex excercises */ 
+
+.middle {
+    background-color: #e5e7eb;
+    padding: 90px 300px;
     text-align: right;
-    padding-right: 60px;
 }
 
 .action {
     background-color: #3882f6;
     color: white;
-    padding: 20px 120px;
-    margin: 30px 180px;
+    padding: 30px 90px;
+    margin: 90px 220px;
     border-radius: 10px;
     display: flex; 
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer {
     text-align: center;
 }
-/*
-.welcomeleft
-.info 
-.footerleft
-*/
