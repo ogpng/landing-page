@@ -34,72 +34,87 @@ a { text-decoration-line: none; }
 img { 
     width: 150px;
     align-self: center;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #3882f6;
     border-radius: 10px;
+}
+
+.heroimg {
+    width: 300px;
+    align-self: center;
 }
 
 button {
     background-color: #3882f6;
     color: white;
-    font-weight: 300px;
-    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 30px;
     border-radius: 10px;
 }
 
-.quote {
-    font-size: 36px;
-    font-weight: 300px;
-    font-style: italic;
-    text-align: center;
-}
 
 .top, .footer {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 30px 220px;
+    padding: 10px 250px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .hero {
     display: flex;  
-    gap: 400px;
+    justify-content: space-between;
+    padding: 100px 0px;
+    gap: 100px;
+}
+
+.placeholder {
+    background-color: #6E737D;
+    width: 1400px;
 }
 
 .info {
     color: #1f2937;
-    padding: 30px 220px;
+    padding: 30px 350px;
     text-align: center;
+    gap: 300px;
+}
+
+.examplecontainer {
+    display: flex;
     justify-content: space-between;
 }
 
-.pics3 {
+.example {
     display: flex;
-    justify-content: space-evenly;
-}
-
-.desc3 {
-    display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* ^ !! check prev flex excercises */ 
 
 .middle {
     background-color: #e5e7eb;
-    padding: 90px 300px;
+    padding: 90px 350px;
     text-align: right;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
 }
 
 .action {
     background-color: #3882f6;
     color: white;
     padding: 30px 90px;
-    margin: 90px 220px;
+    margin: 90px 300px;
     border-radius: 10px;
     display: flex; 
     justify-content: space-between;
